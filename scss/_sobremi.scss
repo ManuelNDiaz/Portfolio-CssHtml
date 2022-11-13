@@ -1,0 +1,123 @@
+/* Sobre mi */
+
+#sobmi {
+    margin-top: 120px;
+  }
+  
+  #tituloam {
+    color: #0049d1;
+  }
+  
+  .am-titulo {
+    h2 {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 0;
+      line-height: 1px;
+      margin: 0 0 20px 0;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #aaaaaa;
+      font-family: "Poppins", sans-serif;
+  
+      &::after {
+        content: "";
+        width: 120px;
+        height: 1px;
+        display: inline-block;
+        background: #0049d1;
+        margin: 4px 10px;
+      }
+    }
+  
+    p {
+      margin: 0;
+      margin: -15px 0 15px 0;
+      font-size: 36px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-family: "Poppins", sans-serif;
+      color: #fff;
+    }
+  }
+  
+  .about-me {
+    .contact h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: #0049d1;
+    }
+  
+    .content {
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          padding-bottom: 10px;
+        }
+  
+        i {
+          font-size: 20px;
+          padding-right: 2px;
+          color: #0049d1;
+        }
+      }
+  
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .progress-title {
+    width: 100%;
+    height: auto;
+  
+    h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: white;
+      margin: 0 0 20px;
+    }
+  }
+  
+  .progress {
+    height: 20px;
+    background: #000f21;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+  
+    .progress-bar {
+      border-radius: 20px;
+      border: 1px solid black;
+      animation: animate-positive 2s;
+    }
+  
+    .progress-value {
+      width: 65px;
+      height: 25px;
+      line-height: 25px;
+      background: #171b3c;
+      font-size: 15px;
+      color: white;
+      border-radius: 0 0 15px 15px;
+      border: 1px solid black;
+      border-top: none;
+      box-shadow: 0 2px 2px #4f4c4c;
+      position: absolute;
+      bottom: -25px;
+      right: 60px;
+    }
+  }
+  
+  @keyframes animate-positive {
+    0% {
+      width: 0;
+    }
+  }
+  
