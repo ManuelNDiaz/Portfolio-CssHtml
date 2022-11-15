@@ -1,6 +1,15 @@
 @charset "UTF-8";
 /*Fuente para utilizar en la página web*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+/* Mixins */
+/* Extend */
+.extendnavbar, .navbar {
+  position: absolute;
+  width: 100%;
+  padding-top: 16px;
+}
+
+/* Variables */
 /* Básicos */
 body {
   font-family: "Montserrat";
@@ -30,9 +39,6 @@ section {
 
 /* Navbar */
 .navbar {
-  position: absolute;
-  width: 100%;
-  padding-top: 16px;
   padding-bottom: 16px;
 }
 
@@ -217,7 +223,7 @@ footer .wave#wave4 {
 /* Botón */
 #botoncv {
   display: inline-block;
-  border: 2px solid rgb(0, 77, 192);
+  border: 2px solid #004dc0;
   border-radius: 50px;
   color: white;
   text-transform: uppercase;
