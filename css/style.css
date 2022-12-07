@@ -347,6 +347,14 @@ footer .wave#wave4 {
   right: 60px;
 }
 
+#pills-tab {
+  margin-top: 110px;
+}
+
+#estudios {
+  margin-top: 25px;
+}
+
 @keyframes animate-positive {
   0% {
     width: 0;
